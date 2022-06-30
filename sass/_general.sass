@@ -7,6 +7,8 @@ nav
     height: 50px
     background-color: #212121
     z-index: 5
+.hamburger
+        display: none
 .menu
     display: flex
     justify-content: space-between
@@ -73,6 +75,7 @@ nav
           font-weight: 400
           text-transform: uppercase
           +btn_hover
+
 .promo
         min-height: 800px
         background: url('../img/uber_bg.png') center (center / cover) no-repeat
@@ -393,7 +396,8 @@ footer
                         margin-top: 19px
                         text-transform: uppercase
                         text-align: center
-        &_mobile
+.xs-visible
+        display: none       
 
 
               
